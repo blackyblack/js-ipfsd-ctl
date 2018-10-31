@@ -7,6 +7,7 @@
 [![Dependency Status](https://david-dm.org/ipfs/js-ipfsd-ctl.svg?style=flat-square)](https://david-dm.org/ipfs/js-ipfsd-ctl)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/feross/standard)
 [![Bundle Size](https://flat.badgen.net/bundlephobia/minzip/ipfsd-ctl)](https://bundlephobia.com/result?p=ipfsd-ctl)
+
 > Spawn IPFS daemons using JavaScript!
 
 ## Lead Maintainer
@@ -128,7 +129,7 @@ Spawn the daemon
 - `callback` - is a function with the signature `function (err, ipfsd)` where:
   - `err` - is the error set if spawning the node is unsuccessful
   - `ipfsd` - is the daemon controller instance:
-    - `api` - a property of `ipfsd`, an instance of  [ipfs-api](https://github.com/ipfs/js-ipfs-api) attached to the newly created ipfs node   
+    - `api` - a property of `ipfsd`, an instance of  [ipfs-api](https://github.com/ipfs/js-ipfs-api) attached to the newly created ipfs node
 
 **example:** See [Usage](#usage)
 
@@ -213,7 +214,7 @@ Start the daemon.
 
 `flags` - Flags array to be passed to the `ipfs daemon` command.
 
-`callback` is a function with the signature `function(err, ipfsApi)` that receives an instance of `Error` on failure or an instance of `ipfs-api` on success. 
+`callback` is a function with the signature `function(err, ipfsApi)` that receives an instance of `Error` on failure or an instance of `ipfs-api` on success.
 
 
 #### `ipfsd.stop([timeout, callback])`
