@@ -1,7 +1,7 @@
 'use strict'
 
 const request = require('superagent')
-const IpfsApi = require('ipfs-api')
+const IpfsApi = require('ipfs-api-with-timeouts')
 const multiaddr = require('multiaddr')
 
 function createApi (apiAddr, gwAddr, IpfsApi) {

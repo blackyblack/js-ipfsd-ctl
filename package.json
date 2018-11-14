@@ -76,7 +76,7 @@
     "execa": "^1.0.0",
     "hapi": "^16.6.2",
     "hat": "~0.0.3",
-    "ipfs-api": "https://github.com/blackyblack/js-ipfs-api.git",
+    "ipfs-api-with-timeouts": "https://github.com/blackyblack/js-ipfs-api.git",
     "joi": "^14.0.4",
     "libp2p-crypto": "https://github.com/blackyblack/js-libp2p-crypto.git",
     "lodash.clone": "^4.5.0",
