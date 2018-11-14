@@ -76,9 +76,9 @@
     "execa": "^1.0.0",
     "hapi": "^16.6.2",
     "hat": "~0.0.3",
-    "ipfs-api": "^26.1.0",
+    "ipfs-api": "https://github.com/blackyblack/js-ipfs-api.git",
     "joi": "^14.0.4",
-    "libp2p-crypto": "~0.14.0",
+    "libp2p-crypto": "https://github.com/blackyblack/js-libp2p-crypto.git",
     "lodash.clone": "^4.5.0",
     "lodash.defaults": "^4.2.0",
     "lodash.defaultsdeep": "^4.6.0",
@@ -98,7 +98,6 @@
     "dependency-check": "^3.2.1",
     "detect-port": "^1.2.3",
     "dirty-chai": "^2.0.1",
-    "husky": "^1.1.2",
     "go-ipfs-dep": "0.4.18",
     "ipfs": "~0.33.0",
     "is-running": "^2.1.0",
@@ -109,12 +108,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ipfs/js-ipfsd-ctl.git"
+    "url": "git+https://github.com/blackyblack/js-ipfsd-ctl.git"
   },
   "bugs": {
-    "url": "https://github.com/ipfs/js-ipfsd-ctl/issues"
+    "url": "https://github.com/blackyblack/js-ipfsd-ctl/issues"
   },
-  "homepage": "https://github.com/ipfs/js-ipfsd-ctl",
+  "homepage": "https://github.com/blackyblack/js-ipfsd-ctl",
   "contributors": [
     "Alan Shaw <alan.shaw@protocol.ai>",
     "Alan Shaw <alan@tableflip.io>",
